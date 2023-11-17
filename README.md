@@ -1,65 +1,70 @@
-# frontend
+# Getting Started with Create React App
 
-# 🖥️ 기본 정보
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 📍 버전
+## Available Scripts
 
-- Node.js 18.15.0
-- ReactJS 18.2.0
+In the project directory, you can run:
 
-## 📍 Figma
+### `npm start`
 
-- [링크](https://www.figma.com/file/2uYtkweyAtBjYd1vBwotE5/Youtube-Clone-Coding-UI)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# 👨‍👨‍👧‍👦 협업 규칙
-## 📍 Commit Naming Convention
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-커밋을 작성할 때 필히 다음 태그를 이름 앞에 붙여주세요.
+### `npm test`
 
-붙이지 않으면, pull request가 거절될 수 있습니다.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [INITIAL] — repository를 생성하고 최초에 파일을 업로드 할 때
-- [ADD] — 신규 파일 추가
-- [UPDATE] — 코드 변경이 일어날때
-- [REFACTOR] — 코드를 리팩토링 했을때
-- [FIX] — 잘못된 링크 정보 변경, 필요한 모듈 추가 및 삭제
-- [REMOVE] — 파일 제거
-- [STYLE] — 디자인 관련 변경사항
-  
-## 📍 Branch 전략
-- main 브랜치는 함부로 push 하지 마세요.(branch protection 적용은 되어있지만)
+### `npm run build`
 
-- Branch는 Git Flow를 따라 개발이 진행 됩니다. (상세 내용은 검색)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- 기본 개발은 dev 브랜치에서 진행이 되며, main 브랜치는 모든 개발이 끝난 후에만 push가 가능합니다.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- feature 브랜치의 naming은 "feature/*"와 같은 형식을 지켜주세요.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- ex) dev -> new branch -> feature/signup-page
+### `npm run eject`
 
-- 협업 예시 : 우선 협업을 위해서는 dev branch를 fork하고, 자신의 레파지토리에서 브랜치를 나누어 작업 한 후 이것을 우리가 협업하는 이 원본 레파지토리의 dev branch로 pull request를 보내세요.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## 📍 코드 리뷰
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- 서로를 위해 코드리뷰를 활성화 해주세요.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- dev branch의 경우 한 개 이상의 approve가 필요합니다.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 📍 이슈 남기기
-- 추후 추가 예정
-- 이슈에 대한 pull requst를 보낼 때는 closes 키워드를 활용하여 이슈와 requst를 묶으면, pull request가 merge되면 이슈가 자동으로 close가 됩니다.
+## Learn More
 
-## 📍 프로젝트 탭
-추후 추가 예정
-- 개발 목록
-- 개발 진행 중
-- 테스트 완료
-- 최종 개발 완료
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-개발자가 개발을 시작한면 해당 목록을 개발진행중 컬럼으로 이동시킨다.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-개발이 완료되면 개발완료 컬럼으로 목록을 이동하고, 테스트 담당자는 개발완료 컬럼에 있는 화면에 대해서 테스트를 진행하게 된다. 테스트가 완료되면 Bug 목록을 이슈에 등록하고, 개발목록를 테스트완료 컬럼으로 이동시키고, bug가 작성된 이슈를 맵핑한다.
+### Code Splitting
 
-개발자는 테스트완료 컬럼에서 bug가 등록되어져 있는 개발목록은 다시 개발진행중 컬럼으로 이동시키고 bug를 수정하게 되고, 이 사이클을 bug가 없을때 까지 실행하게 된다.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-모든 bug가 완료되면 최종개발완료 컬럼으로 개발목록이 이동되게 되고, 실 사용자의 UAT전까지는 최종개발완료 상태로 남게 된다.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
