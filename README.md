@@ -8,8 +8,11 @@
 - ReactJS 18.2.0
 
 ## 📍 Figma
-
+레퍼런스
 - [링크](https://www.figma.com/file/2uYtkweyAtBjYd1vBwotE5/Youtube-Clone-Coding-UI)
+
+이번 프로젝트 디자인
+- [링크](https://www.figma.com/file/ZfmXT3cqFAgx7pJXlM995l/%EA%B0%95%EA%B9%802?type=design&node-id=0%3A1&mode=design&t=LhlVLYJt4weSDboU-1)
 
 # 👨‍👨‍👧‍👦 협업 규칙
 ## 📍 Commit Naming Convention
