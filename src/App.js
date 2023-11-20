@@ -14,6 +14,7 @@ function App() {
       <Route element={<Layout />}>
         <Route index element={<MainPage/>} />
         <Route path="/popular" element={<Popular />} />
+        <Route path="/populr" element={<Populr />} />
         <Route path="/recent" element={<Recent />} />
         <Route path="/my_blog" element={<MyBlog />} />
         <Route path="/upload" element={<GameUpload />} />
